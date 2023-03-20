@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here.</p>
+      </section>
+      
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="images/bubblewhale.jpg" alt="Image 1">
+          </div>
+          <div class="gallery-item">
+            <img src="images/tiger_poster.jpg" alt="Image 2">
+          </div>
+          <div class="gallery-item">
+            <img src="images/space_cowboy_baby.jpg" alt="Image 3">
+          </div>
+          <div class="gallery-item">
+            <img src="images/xingfu_flyer1.jpg" alt="Image 4">
+          </div>
+          <div class="gallery-item">
+            <img src="images/xingfu_flyer2.jpg" alt="Image 5">
+          </div>
+          <div class="gallery-item">
+            <img src="images/bacon.jpg" alt="Image 6">
+          </div>
+          <div class="gallery-item">
+            <img src="images/paperbag_incontext.jpg" alt="Image 7">
+          </div>
+          <div class="gallery-item">
+            <img src="image8.jpg" alt="Image 8">
+          </div>
+          <div class="gallery-item">
+            <img src="image9.jpg" alt="Image 9">
+          </div>
+        </div>
+      </section>
+      
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

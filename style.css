@@ -1,0 +1,169 @@
+:root {
+    --accent-color: #ffdb58;
+  }
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #e6e6e6;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  nav {
+    background-color: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #f2f2f2;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+    transition: all 0.5s ease;
+    width: calc(25% - 0.625rem);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }  
+  
+  
+  .fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+  }
+
+  #contact {
+    background-color: #333333;
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  #contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e6b800;
+  }
+  
+  
+  footer {
+    background-color: #1c1c1c;
+    color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
