@@ -45,8 +45,9 @@ section h2 {
 
 #about-me {
   text-align: center;
-  background-image: url('images/banner.jpg');
-  background-size:contain;
+  background-image: url('images/banner_bg.jpg');
+  background-size:fill;
+  background-repeat: no-repeat;
   background-position: center;
 
 }
