@@ -1,0 +1,118 @@
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+#about-me {
+  text-align: center;
+  background-image: url("images/banner_bg.jpg");
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-me-text {
+  width: 20%;
+  margin: 0 auto;
+  margin-right: 30%;
+}
+
+.about-me-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile-image {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-left: 30%;
+}
+
+.artwork {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.artwork img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.artwork-info {
+  flex: 1;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
