@@ -116,21 +116,31 @@ nav a {
 }
 
 .artwork {
-  display: block;
   column-count: 3;
-  column-gap: 30px;
-}
-.artwork .artwork-item {
-  display: inline-block;
+  column-gap: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
-  margin-bottom: 30px;
-  break-inside: avoid;
-  page-break-inside: avoid;
 }
 
+.artwork-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .artwork {
+    column-count: 2;
+  }
+}
 footer {
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
 }
 

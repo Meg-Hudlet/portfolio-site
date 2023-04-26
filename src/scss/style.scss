@@ -64,19 +64,19 @@ main {
         left: 0;
         width: 800px; /* adjust to your image's size */
         height: 800px; /* adjust to your image's size */
-  }
+        }
 
-  &:after {
-    content: "";
-    background-image: url('../../images/banner_corner2.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    bottom: -45px;
-    right: 0;
-    width: 400px; /* adjust to your image's size */
-    height: 400px; /* adjust to your image's size */
-  }
+    &:after {
+      content: "";
+      background-image: url('../../images/banner_corner2.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      bottom: -45px;
+      right: 0;
+      width: 400px; /* adjust to your image's size */
+      height: 400px; /* adjust to your image's size */
+      }
 }
   
   .about-me-text {
@@ -105,21 +105,34 @@ main {
   }
   
   .artwork {
-    display: block;
     column-count: 3;
-    column-gap: 30px;
+    column-gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
   
-    .artwork-item {
-      display: inline-block;
-      width: 100%;
-      margin-bottom: 30px;
-      break-inside: avoid;
-      page-break-inside: avoid;
+  .artwork-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .artwork {
+      column-count: 2;
     }
   }
+  
+  
+  
     
     footer {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     }
