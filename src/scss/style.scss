@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import 'inputs';
 @import 'form';
+@import 'header';
+// @import 'contact';
 
 $primary-color: #333;
 
@@ -31,72 +33,6 @@ main {
     }
 }
 
-header {
-  background-image: url("../../images/header-bg.jpg");
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #f2f2f2;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 5;
-  
-  .brand {
-    display: flex;
-    align-items: center;
-    
-    img {
-      width: 70px;
-      height: 70px;
-      margin-right: 10px;
-    }
-    
-    h1 {
-      margin: 0;
-      font-size: 1.5rem;
-      font-weight: 700;
-    }
-  }
-  
-  nav {
-
-    font-size: 1.5em;
-
-    ul {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      
-      li {
-        margin-left: 20px;
-        
-        &:first-child {
-          margin-left: 0;
-        }
-        
-        a {
-          text-decoration: none;
-          color: #f2f2f2;
-          
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-  }
-}
-
-
-  
-  
   #about-me {
     background-image: url('../../images/banner_bg.jpg');
     background-size: cover;
@@ -162,6 +98,7 @@ header {
   
   .profile-wrapper {
   width: 20%;
+  min-width: 200px;
   border-radius: 100vw;
   display: flex;
   justify-content: center;
@@ -201,10 +138,34 @@ header {
     // grid-template-columns: repeat(1, 1fr);
     // grid-gap: 1rem;
   }
-  
     
     footer {
     background-color: #f2f2f2;
     padding: 0px;
     text-align: center;
     }
+
+footer {
+  background-image: url("../../images/header-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  color: #f2f2f2;
+  a {
+    text-decoration: none;
+    color: #f2f2f2;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+}
+  ul {
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+
+  }
+  p {
+    padding-bottom: 10px;
+  }
+}
