@@ -13,6 +13,8 @@ header {
     left: 0;
     right: 0;
     z-index: 5;
+    filter: drop-shadow(0 2px 5px black);
+
     
     .brand {
       display: flex;
@@ -35,6 +37,10 @@ header {
     nav {
   
       font-size: 1.5em;
+
+      @media (min-width: 360px) {
+        display: none;
+      }
   
       ul {
         display: flex;
@@ -54,7 +60,8 @@ header {
             color: #f2f2f2;
             
             &:hover {
-              text-decoration: underline;
+              transition: color .5s;
+              color: #8ec1ab;
             }
           }
         }
