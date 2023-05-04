@@ -220,9 +220,13 @@ footer ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 footer p {
   padding-bottom: 10px;
+}
+footer img {
+  width: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -163,9 +163,13 @@ footer {
     list-style-type: none;
     display: flex;
     justify-content:space-around;
+    align-items: center;
 
   }
   p {
     padding-bottom: 10px;
+  }
+  img {
+    width: 25px;
   }
 }
