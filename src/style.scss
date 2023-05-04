@@ -26,7 +26,7 @@ main {
   
     section {
       margin-bottom: 40px;
-  
+      
       h2 {
         margin-bottom: 20px;
       }
@@ -34,7 +34,7 @@ main {
 }
 
   #about-me {
-    background-image: url('../../images/banner_bg.jpg');
+    background-image: url('./images/banner_bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -48,7 +48,7 @@ main {
 
     &:before {
         content: "";
-        background-image: url('../../images/banner_corner1.png');
+        background-image: url('./images/banner_corner1.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left top;
@@ -60,7 +60,7 @@ main {
 
     &:after {
       content: "";
-      background-image: url('../../images/banner_corner2.png');
+      background-image: url('./images/banner_corner2.png');
       background-repeat: no-repeat;
       background-size: contain;
       background-position: right bottom;
@@ -146,7 +146,7 @@ main {
     }
 
 footer {
-  background-image: url("../../images/header-bg.jpg");
+  background-image: url("./images/header-bg.jpg");
   background-size: cover;
   width: 100%;
   color: #f2f2f2;

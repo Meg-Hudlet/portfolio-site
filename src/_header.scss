@@ -1,5 +1,5 @@
 header {
-    background-image: url("../../images/header-bg.jpg");
+    background-image: url("./images/header-bg.jpg");
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +28,7 @@ header {
         margin: 0;
         font-size: 1.5rem;
         font-weight: 700;
+        text-transform: uppercase;
       }
     }
     
